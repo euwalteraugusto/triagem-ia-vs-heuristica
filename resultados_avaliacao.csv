@@ -1,0 +1,81 @@
+﻿id,assunto,complexidade,categoria_esperada,categoria_llm,acerto_llm,tokens_llm,latencia_llm_ms,fallback_llm,categoria_heuristica,acerto_heuristica,latencia_heuristica_ms
+50,Notificação extrajudicial - Regularização de licenças,Complexo,Documentos e Protocolos,Dívidas e Cobranças,False,510,540.23,False,Documentos e Protocolos,True,0.0231
+64,Atraso na entrega por dependência externa,Complexo,Trabalho e Projetos,Trabalho e Projetos,True,498,4354.28,False,Outros Assuntos,False,0.0267
+24,Convite exclusivo para novos produtos,Simples,Promoções e Propaganda,Promoções e Propaganda,True,484,180.2,False,Eventos e Convites,False,0.0286
+51,Cláusula de rescisão ambígua no contrato,Complexo,Documentos e Protocolos,Documentos e Protocolos,True,511,264.4,False,Documentos e Protocolos,True,0.0186
+31,Panorama do mercado de tecnologia,Simples,Newsletters e Notícias,Newsletters e Notícias,True,480,224.23,False,Newsletters e Notícias,True,0.0138
+56,Conciliação de despesas mistas do cartão,Complexo,Finanças Pessoais,Finanças Pessoais,True,498,238.42,False,Finanças Pessoais,True,0.0179
+9,Novo acesso detectado,Simples,Alertas de Segurança,Alertas de Segurança,True,492,435.72,False,Alertas de Segurança,True,0.0029
+47,Conta acessada de outro país,Complexo,Alertas de Segurança,Alertas de Segurança,True,494,233.21,False,Alertas de Segurança,True,0.0033
+58,Plano cancelado mas serviço continua ativo,Complexo,Assinaturas e Serviços,Assinaturas e Serviços,True,501,218.42,False,Alertas de Segurança,False,0.0041
+40,Alteração no horário do embarque,Simples,Viagens e Reservas,Viagens e Reservas,True,488,335.53,False,Viagens e Reservas,True,0.0196
+16,Disponibilidade para o projeto novo,Simples,Trabalho e Projetos,Trabalho e Projetos,True,487,171.15,False,Trabalho e Projetos,True,0.021
+73,Convite para painel sobre open finance,Complexo,Eventos e Convites,Eventos e Convites,True,490,175.15,False,Eventos e Convites,True,0.0198
+60,Renovação cobrada em moeda diferente,Complexo,Assinaturas e Serviços,Dívidas e Cobranças,False,498,210.68,False,Assinaturas e Serviços,True,0.0126
+39,Check-in disponível para seu voo,Simples,Viagens e Reservas,Viagens e Reservas,True,485,151.23,False,Viagens e Reservas,True,0.0226
+43,Alerta de indisponibilidade nos servidores AWS,Complexo,Suporte Técnico,Suporte Técnico,True,509,220.18,False,Suporte Técnico,True,0.0119
+63,Revisão de arquitetura antes do deploy,Complexo,Trabalho e Projetos,Trabalho e Projetos,True,500,194.04,False,Trabalho e Projetos,True,0.0248
+26,Upgrade de plano solicitado,Simples,Assinaturas e Serviços,Assinaturas e Serviços,True,482,171.11,False,Assinaturas e Serviços,True,0.0107
+57,Cobrança dupla cancelando meu limite,Complexo,Assinaturas e Serviços,Dívidas e Cobranças,False,509,182.89,False,Dívidas e Cobranças,False,0.0074
+77,Remarcação de voo por reunião cancelada,Complexo,Viagens e Reservas,Viagens e Reservas,True,498,201.91,False,Viagens e Reservas,True,0.0217
+2,Boleto não chegou por e-mail,Simples,Dívidas e Cobranças,Dívidas e Cobranças,True,493,209.03,False,Dívidas e Cobranças,True,0.0076
+71,Editorial: o futuro do crédito no Brasil,Complexo,Newsletters e Notícias,Newsletters e Notícias,True,490,189.36,False,Newsletters e Notícias,True,0.0148
+54,Divergência entre extrato pessoal e reembolso corporativo,Complexo,Finanças Pessoais,Finanças Pessoais,True,502,207.7,False,Finanças Pessoais,True,0.0169
+19,Botão de exportar não funciona,Simples,Suporte Técnico,Suporte Técnico,True,484,1248.07,False,Suporte Técnico,True,0.0083
+68,Parcelamento não refletido na fatura,Complexo,Dívidas e Cobranças,Dívidas e Cobranças,True,501,2636.75,False,Dívidas e Cobranças,True,0.0072
+20,Erro 404 ao acessar o link,Simples,Suporte Técnico,Suporte Técnico,True,489,3228.49,False,Suporte Técnico,True,0.0086
+21,Aproveite seu limite pré-aprovado,Simples,Promoções e Propaganda,Promoções e Propaganda,True,496,2238.56,False,Promoções e Propaganda,True,0.0217
+44,Falha na sincronização entre app e site,Complexo,Suporte Técnico,Suporte Técnico,True,498,3443.53,False,Suporte Técnico,True,0.0107
+48,Golpe de phishing recebido,Complexo,Alertas de Segurança,Alertas de Segurança,True,493,3254.11,False,Alertas de Segurança,True,0.0055
+34,Convite para webinar gratuito,Simples,Eventos e Convites,Eventos e Convites,True,486,2349.22,False,Eventos e Convites,True,0.0174
+62,Conflito de prioridades entre squads,Complexo,Trabalho e Projetos,Trabalho e Projetos,True,498,3262.54,False,Trabalho e Projetos,True,0.0241
+33,Ingresso - Summit de Inovação,Simples,Eventos e Convites,Eventos e Convites,True,484,2265.9,False,Eventos e Convites,True,0.0188
+8,Certidão negativa de débitos,Simples,Documentos e Protocolos,Documentos e Protocolos,True,482,3282.55,False,Documentos e Protocolos,True,0.0176
+66,Cobrança de serviço que nunca contratei,Complexo,Dívidas e Cobranças,Dívidas e Cobranças,True,501,3267.87,False,Dívidas e Cobranças,True,0.0086
+3,Preciso da fatura do cartão,Simples,Dívidas e Cobranças,Documentos e Protocolos,False,487,2305.89,False,Dívidas e Cobranças,True,0.0083
+17,Reset de senha do painel,Simples,Suporte Técnico,Suporte Técnico,True,483,3260.56,False,Alertas de Segurança,False,0.0041
+37,Confirmação de voo - SP/RJ,Simples,Viagens e Reservas,Viagens e Reservas,True,490,3266.76,False,Viagens e Reservas,True,0.021
+23,Última chance: desconto de 30%,Simples,Promoções e Propaganda,Promoções e Propaganda,True,494,2266.15,False,Promoções e Propaganda,True,0.0241
+41,App travou e cobrou juros,Complexo,Suporte Técnico,Suporte Técnico,True,514,3259.09,False,Dívidas e Cobranças,False,0.0086
+25,Cancelamento de conta premium,Simples,Assinaturas e Serviços,Assinaturas e Serviços,True,481,3263.69,False,Assinaturas e Serviços,True,0.0134
+6,Preciso do comprovante de residência,Simples,Documentos e Protocolos,Documentos e Protocolos,True,486,2298.43,False,Documentos e Protocolos,True,0.0184
+7,Cópia do contrato assinado,Simples,Documentos e Protocolos,Documentos e Protocolos,True,488,3261.86,False,Documentos e Protocolos,True,0.0188
+61,Nova feature de investimentos liberada,Complexo,Trabalho e Projetos,Trabalho e Projetos,True,500,3258.55,False,Trabalho e Projetos,True,0.0324
+74,Confirmação de patrocínio para o hackathon,Complexo,Eventos e Convites,Eventos e Convites,True,498,2271.96,False,Eventos e Convites,True,0.0236
+10,Tentativa de login suspeita,Simples,Alertas de Segurança,Alertas de Segurança,True,489,3292.69,False,Alertas de Segurança,True,0.0622
+53,Reembolso de hospedagem vs Adiantamento,Complexo,Finanças Pessoais,Finanças Pessoais,True,507,3267.87,False,Finanças Pessoais,True,0.0648
+22,Cashback em dobro este final de semana,Simples,Promoções e Propaganda,Promoções e Propaganda,True,491,2259.64,False,Promoções e Propaganda,True,0.0231
+67,Negociação de dívida com desconto prometido,Complexo,Dívidas e Cobranças,Dívidas e Cobranças,True,505,3271.5,False,Dívidas e Cobranças,True,0.0393
+59,Downgrade automático sem aviso,Complexo,Assinaturas e Serviços,Assinaturas e Serviços,True,498,3274.85,False,Alertas de Segurança,False,0.0064
+11,Código de verificação solicitado,Simples,Alertas de Segurança,Alertas de Segurança,True,485,2251.13,False,Outros Assuntos,False,0.0832
+49,Divergência contratual na API de pagamentos,Complexo,Documentos e Protocolos,Trabalho e Projetos,False,513,3265.81,False,Suporte Técnico,False,0.0136
+1,Segunda via de fatura,Simples,Dívidas e Cobranças,Dívidas e Cobranças,True,489,3262.74,False,Dívidas e Cobranças,True,0.0076
+52,Pendência de assinatura em contrato internacional,Complexo,Documentos e Protocolos,Documentos e Protocolos,True,501,3289.03,False,Assinaturas e Serviços,False,0.0153
+75,Agenda da conferência internacional,Complexo,Eventos e Convites,Eventos e Convites,True,489,2281.47,False,Eventos e Convites,True,0.0207
+38,Reserva de hotel confirmada,Simples,Viagens e Reservas,Viagens e Reservas,True,488,3257.99,False,Viagens e Reservas,True,0.0191
+76,Convite para comitê de inovação,Complexo,Eventos e Convites,Trabalho e Projetos,False,493,3257.7,False,Eventos e Convites,True,0.0198
+80,Upgrade de classe não aplicado na reserva,Complexo,Viagens e Reservas,Viagens e Reservas,True,493,2260.44,False,Assinaturas e Serviços,False,0.0129
+27,Renovação automática ativada,Simples,Assinaturas e Serviços,Assinaturas e Serviços,True,485,3261.74,False,Assinaturas e Serviços,True,0.0119
+35,Confirmação de inscrição no workshop,Simples,Eventos e Convites,Eventos e Convites,True,488,2259.56,False,Eventos e Convites,True,0.0179
+45,Fui roubado - Cancelem os cartões,Complexo,Alertas de Segurança,Alertas de Segurança,True,507,3263.02,False,Alertas de Segurança,True,0.0043
+42,Erro de token e bloqueio judicial,Complexo,Suporte Técnico,Suporte Técnico,True,502,3220.12,False,Alertas de Segurança,False,0.0064
+46,Suspeita de clonagem de cartão,Complexo,Alertas de Segurança,Alertas de Segurança,True,493,3223.06,False,Outros Assuntos,False,0.0274
+13,Entrevista técnica - Desenvolvedor Python,Simples,Trabalho e Projetos,Trabalho e Projetos,True,485,2219.39,False,Trabalho e Projetos,True,0.0222
+78,Reembolso de viagem corporativa negado,Complexo,Viagens e Reservas,Finanças Pessoais,False,498,3218.44,False,Finanças Pessoais,False,0.0222
+69,Análise semanal: juros e câmbio,Complexo,Newsletters e Notícias,Newsletters e Notícias,True,492,3205.17,False,Newsletters e Notícias,True,0.0212
+65,"Comprei, devolvi, mas a cobrança continua",Complexo,Dívidas e Cobranças,Dívidas e Cobranças,True,514,3282.23,False,Dívidas e Cobranças,True,0.0083
+30,Resumo econômico da semana,Simples,Newsletters e Notícias,Newsletters e Notícias,True,483,2270.01,False,Newsletters e Notícias,True,0.0153
+28,Dúvida sobre benefícios do plano,Simples,Assinaturas e Serviços,Assinaturas e Serviços,True,484,3267.94,False,Outros Assuntos,False,0.0255
+72,Radar de mercado: criptomoedas e renda fixa,Complexo,Newsletters e Notícias,Newsletters e Notícias,True,495,3221.27,False,Newsletters e Notícias,True,0.0167
+79,Conflito de datas entre duas viagens a trabalho,Complexo,Viagens e Reservas,Viagens e Reservas,True,494,2268.11,False,Eventos e Convites,False,0.0234
+5,Informe de Rendimentos 2025,Simples,Documentos e Protocolos,Documentos e Protocolos,True,484,3222.74,False,Documentos e Protocolos,True,0.0181
+55,Imposto retido indevidamente no salário,Complexo,Finanças Pessoais,Finanças Pessoais,True,500,3278.25,False,Outros Assuntos,False,0.031
+12,Dispositivo desconhecido conectado,Simples,Alertas de Segurança,Alertas de Segurança,True,484,2265.73,False,Alertas de Segurança,True,0.0033
+70,Fintechs em alta: o que mudou no setor,Complexo,Newsletters e Notícias,Newsletters e Notícias,True,492,3216.68,False,Outros Assuntos,False,0.0274
+14,Reunião de alinhamento do sprint,Simples,Trabalho e Projetos,Trabalho e Projetos,True,482,3247.22,False,Trabalho e Projetos,True,0.0212
+18,Sistema não abre no navegador,Simples,Suporte Técnico,Suporte Técnico,True,482,2203.41,False,Suporte Técnico,True,0.0129
+29,Fechamento do Ibovespa,Simples,Newsletters e Notícias,Newsletters e Notícias,True,483,3211.2,False,Newsletters e Notícias,True,0.0172
+32,Boletim semanal de investimentos,Simples,Newsletters e Notícias,Newsletters e Notícias,True,483,2229.55,False,Newsletters e Notícias,True,0.0138
+36,Save the date: conferência anual,Simples,Eventos e Convites,Eventos e Convites,True,483,3215.2,False,Eventos e Convites,True,0.0172
+4,Valor da parcela errado,Simples,Dívidas e Cobranças,Dívidas e Cobranças,True,486,3277.8,False,Dívidas e Cobranças,True,0.0074
+15,Feedback sobre a proposta técnica,Simples,Trabalho e Projetos,Trabalho e Projetos,True,483,2230.47,False,Outros Assuntos,False,0.0215

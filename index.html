@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoria IA | TCC Classificador</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans p-8">
+    <div class="max-w-6xl mx-auto">
+
+        <header class="mb-8 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold text-slate-900">Piloto Automático de Triagem</h1>
+                <p class="text-slate-500">LLM (produção) vs. Heurística (baseline) — monitoramento em tempo real</p>
+            </div>
+            <button onclick="carregarDados()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded shadow transition">
+                Atualizar Dados
+            </button>
+        </header>
+
+        <!-- Cards de Métricas -->
+        <div class="grid grid-cols-4 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+                <h3 class="text-sm font-semibold text-slate-500 uppercase">Volume Processado</h3>
+                <p id="totalEmails" class="text-3xl font-bold mt-2">0</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+                <h3 class="text-sm font-semibold text-slate-500 uppercase">Latência LLM (ms)</h3>
+                <p id="avgLatencia" class="text-3xl font-bold mt-2 text-green-600">0.00</p>
+                <p class="text-xs text-slate-400 mt-1">Heurística: <span id="avgLatenciaHeur">0</span> ms</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+                <h3 class="text-sm font-semibold text-slate-500 uppercase">Custo Médio (Tokens)</h3>
+                <p id="avgTokens" class="text-3xl font-bold mt-2 text-purple-600">0</p>
+                <p class="text-xs text-slate-400 mt-1">Heurística: 0 tokens</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
+                <h3 class="text-sm font-semibold text-slate-500 uppercase">Concordância LLM x Heur.</h3>
+                <p id="concordancia" class="text-3xl font-bold mt-2 text-amber-600">0%</p>
+                <p class="text-xs text-slate-400 mt-1">% de e-mails com mesma decisão</p>
+            </div>
+        </div>
+
+        <!-- Tabela de Logs -->
+        <div class="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-slate-100 border-b border-slate-200 text-sm">
+                        <th class="p-4 font-semibold">Data/Hora</th>
+                        <th class="p-4 font-semibold">Assunto</th>
+                        <th class="p-4 font-semibold">Decisão LLM</th>
+                        <th class="p-4 font-semibold">Decisão Heurística</th>
+                        <th class="p-4 font-semibold">Latência LLM</th>
+                        <th class="p-4 font-semibold text-center">Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="logTableBody" class="text-sm divide-y divide-slate-100">
+                    <!-- Linhas injetadas via JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        async function carregarDados() {
+            try {
+                const resStats = await fetch('/api/stats');
+                const stats = await resStats.json();
+
+                const total = stats.geral.total || 0;
+                document.getElementById('totalEmails').textContent = total;
+                document.getElementById('avgLatencia').textContent = (stats.geral.avg_latencia || 0).toFixed(2);
+                document.getElementById('avgLatenciaHeur').textContent = (stats.geral.avg_latencia_heuristica || 0).toFixed(3);
+                document.getElementById('avgTokens').textContent = Math.round(stats.geral.avg_tokens || 0);
+
+                const concordanciaPct = total > 0 ? (stats.geral.concordancia_llm_heuristica / total * 100) : 0;
+                document.getElementById('concordancia').textContent = concordanciaPct.toFixed(1) + '%';
+
+                const resLogs = await fetch('/api/logs');
+                const logs = await resLogs.json();
+
+                const tbody = document.getElementById('logTableBody');
+                tbody.innerHTML = '';
+
+                logs.forEach(log => {
+                    const divergiu = log.categoria !== log.categoria_heuristica;
+                    const row = `
+                        <tr class="hover:bg-slate-50 transition ${divergiu ? 'bg-amber-50' : ''}">
+                            <td class="p-4 text-slate-500">${new Date(log.timestamp).toLocaleString('pt-BR')}</td>
+                            <td class="p-4 font-medium max-w-xs truncate" title="${log.assunto}">${log.assunto}</td>
+                            <td class="p-4">
+                                <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-semibold">
+                                    ${log.categoria}
+                                </span>
+                            </td>
+                            <td class="p-4">
+                                <span class="bg-slate-200 text-slate-700 px-2 py-1 rounded text-xs font-semibold">
+                                    ${log.categoria_heuristica || '—'}
+                                </span>
+                            </td>
+                            <td class="p-4 text-slate-500">${log.latencia_ms} ms</td>
+                            <td class="p-4 text-center">
+                                <button onclick="desfazer('${log.uid_email}')" class="text-red-500 hover:text-red-700 text-xs font-semibold">
+                                    Desfazer
+                                </button>
+                            </td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            } catch (error) {
+                console.error("Erro ao buscar dados:", error);
+            }
+        }
+
+        async function desfazer(uid) {
+            if(!confirm("Devolver este e-mail para a pasta de teste?")) return;
+
+            try {
+                const res = await fetch(`/api/undo/${uid}`, { method: 'POST' });
+                const data = await res.json();
+
+                if(data.status === "success") {
+                    carregarDados();
+                } else {
+                    alert("Erro no estorno: " + data.message);
+                }
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        carregarDados();
+    </script>
+</body>
+</html>

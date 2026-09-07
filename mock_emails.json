@@ -1,0 +1,642 @@
+[
+  {
+    "id": "50",
+    "remetente": "contato50@teste.com",
+    "assunto": "Notificação extrajudicial - Regularização de licenças",
+    "corpo": "Identificamos o uso de softwares sem licenciamento ativo nas máquinas da equipe de engenharia. Regularizem o pagamento ou enfrentaremos multas.",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "64",
+    "remetente": "contato64@teste.com",
+    "assunto": "Atraso na entrega por dependência externa",
+    "corpo": "Nosso módulo está pronto, mas depende de uma API de um parceiro que ainda não entregou o ambiente de homologação.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "24",
+    "remetente": "contato24@teste.com",
+    "assunto": "Convite exclusivo para novos produtos",
+    "corpo": "Conheça a nova linha de investimentos disponível só para clientes VIP.",
+    "categoria_esperada": "Promoções e Propaganda",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "51",
+    "remetente": "contato51@teste.com",
+    "assunto": "Cláusula de rescisão ambígua no contrato",
+    "corpo": "O item 4.2 do contrato de prestação de serviço permite rescisão a qualquer momento, mas o anexo financeiro cobra multa de 6 meses. Qual prevalece?",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "31",
+    "remetente": "contato31@teste.com",
+    "assunto": "Panorama do mercado de tecnologia",
+    "corpo": "As principais notícias do setor de fintechs publicadas nesta edição.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "56",
+    "remetente": "contato56@teste.com",
+    "assunto": "Conciliação de despesas mistas do cartão",
+    "corpo": "Usei o cartão corporativo para uma despesa pessoal por engano durante a viagem e preciso entender como devolver o valor.",
+    "categoria_esperada": "Finanças Pessoais",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "9",
+    "remetente": "contato9@teste.com",
+    "assunto": "Novo acesso detectado",
+    "corpo": "Identificamos um login em um novo dispositivo (iPhone 13). Se não foi você, troque sua senha.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "47",
+    "remetente": "contato47@teste.com",
+    "assunto": "Conta acessada de outro país",
+    "corpo": "Recebi um alerta de login na Rússia enquanto estava dormindo no Brasil, e agora não consigo mais entrar na minha conta.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "58",
+    "remetente": "contato58@teste.com",
+    "assunto": "Plano cancelado mas serviço continua ativo",
+    "corpo": "Pedi o cancelamento há duas semanas e recebi confirmação por e-mail, porém meu acesso ao aplicativo premium continua liberado e sendo cobrado.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "40",
+    "remetente": "contato40@teste.com",
+    "assunto": "Alteração no horário do embarque",
+    "corpo": "Seu voo teve o horário de partida adiantado em 40 minutos.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "16",
+    "remetente": "contato16@teste.com",
+    "assunto": "Disponibilidade para o projeto novo",
+    "corpo": "Gostaria de saber se ainda há vaga na equipe do projeto de automação.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "73",
+    "remetente": "contato73@teste.com",
+    "assunto": "Convite para painel sobre open finance",
+    "corpo": "Você foi selecionado para participar como palestrante no painel sobre open finance no próximo mês.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "60",
+    "remetente": "contato60@teste.com",
+    "assunto": "Renovação cobrada em moeda diferente",
+    "corpo": "A renovação anual veio cobrada em dólar mesmo eu tendo contratado o plano em reais no ano passado.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "39",
+    "remetente": "contato39@teste.com",
+    "assunto": "Check-in disponível para seu voo",
+    "corpo": "Faça o check-in online até 2 horas antes do embarque.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "43",
+    "remetente": "contato43@teste.com",
+    "assunto": "Alerta de indisponibilidade nos servidores AWS",
+    "corpo": "As instâncias de banco de dados estão batendo 100% de CPU. Precisamos de aprovação imediata de orçamento para escalar o cluster antes que o app caia.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "63",
+    "remetente": "contato63@teste.com",
+    "assunto": "Revisão de arquitetura antes do deploy",
+    "corpo": "Precisamos que alguém do time sênior valide o desenho da nova esteira de dados antes de liberarmos para produção na sexta.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "26",
+    "remetente": "contato26@teste.com",
+    "assunto": "Upgrade de plano solicitado",
+    "corpo": "Quero migrar do plano básico para o plano empresarial ainda este mês.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "57",
+    "remetente": "contato57@teste.com",
+    "assunto": "Cobrança dupla cancelando meu limite",
+    "corpo": "Cancelei a assinatura premium mês passado pelo site parceiro, mas a parcela veio na fatura de hoje e estourou meu limite, bloqueando minhas compras.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "77",
+    "remetente": "contato77@teste.com",
+    "assunto": "Remarcação de voo por reunião cancelada",
+    "corpo": "A reunião com o investidor em Londres foi cancelada, preciso remarcar o voo e o hotel já reservados.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "2",
+    "remetente": "contato2@teste.com",
+    "assunto": "Boleto não chegou por e-mail",
+    "corpo": "Não recebi o boleto de setembro na minha caixa de entrada, podem reenviar?",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "71",
+    "remetente": "contato71@teste.com",
+    "assunto": "Editorial: o futuro do crédito no Brasil",
+    "corpo": "Coluna de opinião discutindo tendências regulatórias para o mercado de crédito nos próximos anos.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "54",
+    "remetente": "contato54@teste.com",
+    "assunto": "Divergência entre extrato pessoal e reembolso corporativo",
+    "corpo": "Recebi o reembolso da viagem, mas o valor não bate com o que gastei do meu próprio bolso durante a conferência.",
+    "categoria_esperada": "Finanças Pessoais",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "19",
+    "remetente": "contato19@teste.com",
+    "assunto": "Botão de exportar não funciona",
+    "corpo": "Ao clicar em exportar relatório, nada acontece e não aparece nenhum erro.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "68",
+    "remetente": "contato68@teste.com",
+    "assunto": "Parcelamento não refletido na fatura",
+    "corpo": "Parcelei uma compra em 6 vezes pelo aplicativo, mas a fatura deste mês cobrou o valor integral de uma vez.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "20",
+    "remetente": "contato20@teste.com",
+    "assunto": "Erro 404 ao acessar o link",
+    "corpo": "O link que vocês mandaram por e-mail está retornando página não encontrada.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "21",
+    "remetente": "contato21@teste.com",
+    "assunto": "Aproveite seu limite pré-aprovado",
+    "corpo": "Você tem R$ 10.000 disponíveis para empréstimo com taxas reduzidas.",
+    "categoria_esperada": "Promoções e Propaganda",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "44",
+    "remetente": "contato44@teste.com",
+    "assunto": "Falha na sincronização entre app e site",
+    "corpo": "O saldo que aparece no aplicativo é diferente do que vejo no site, e isso está me impedindo de fazer uma transferência importante hoje.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "48",
+    "remetente": "contato48@teste.com",
+    "assunto": "Golpe de phishing recebido",
+    "corpo": "Recebi um e-mail em nome de vocês pedindo meus dados bancários, mas o domínio do remetente parecia falso.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "34",
+    "remetente": "contato34@teste.com",
+    "assunto": "Convite para webinar gratuito",
+    "corpo": "Participe da live sobre tendências de mercado nesta quinta às 19h.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "62",
+    "remetente": "contato62@teste.com",
+    "assunto": "Conflito de prioridades entre squads",
+    "corpo": "O time de dados pediu urgência num relatório enquanto o time de produto pediu urgência numa integração, e ambos têm o mesmo prazo.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "33",
+    "remetente": "contato33@teste.com",
+    "assunto": "Ingresso - Summit de Inovação",
+    "corpo": "Seu QR Code para entrada no evento está anexado.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "8",
+    "remetente": "contato8@teste.com",
+    "assunto": "Certidão negativa de débitos",
+    "corpo": "Como faço para solicitar a certidão negativa junto à empresa?",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "66",
+    "remetente": "contato66@teste.com",
+    "assunto": "Cobrança de serviço que nunca contratei",
+    "corpo": "Apareceu uma cobrança recorrente de um serviço que não reconheço, e isso já aconteceu duas vezes seguidas.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "3",
+    "remetente": "contato3@teste.com",
+    "assunto": "Preciso da fatura do cartão",
+    "corpo": "Onde consigo baixar a fatura do meu cartão de crédito referente ao mês passado?",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "17",
+    "remetente": "contato17@teste.com",
+    "assunto": "Reset de senha do painel",
+    "corpo": "Clique no link abaixo para cadastrar sua nova senha de acesso ao sistema interno.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "37",
+    "remetente": "contato37@teste.com",
+    "assunto": "Confirmação de voo - SP/RJ",
+    "corpo": "Seu bilhete aéreo para a reunião de diretoria foi emitido.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "23",
+    "remetente": "contato23@teste.com",
+    "assunto": "Última chance: desconto de 30%",
+    "corpo": "Assine o plano anual hoje e garanta 30% de desconto por tempo limitado.",
+    "categoria_esperada": "Promoções e Propaganda",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "41",
+    "remetente": "contato41@teste.com",
+    "assunto": "App travou e cobrou juros",
+    "corpo": "Tentei pagar a fatura ontem, mas a tela de PIX do aplicativo de vocês deu erro 500 o dia todo. Agora estão me cobrando multa por atraso. Quero o estorno da multa.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "25",
+    "remetente": "contato25@teste.com",
+    "assunto": "Cancelamento de conta premium",
+    "corpo": "Gostaria de cancelar minha assinatura mensal do plano Pro.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "6",
+    "remetente": "contato6@teste.com",
+    "assunto": "Preciso do comprovante de residência",
+    "corpo": "Vocês podem emitir um comprovante de vínculo para eu levar ao banco?",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "7",
+    "remetente": "contato7@teste.com",
+    "assunto": "Cópia do contrato assinado",
+    "corpo": "Solicito uma via digital do contrato de prestação de serviços que assinei em março.",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "61",
+    "remetente": "contato61@teste.com",
+    "assunto": "Nova feature de investimentos liberada",
+    "corpo": "A funcionalidade de CDB foi para produção. Segue o material de propaganda para dispararmos aos clientes e a documentação técnica para o FAQ.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "74",
+    "remetente": "contato74@teste.com",
+    "assunto": "Confirmação de patrocínio para o hackathon",
+    "corpo": "Precisamos da confirmação da cota de patrocínio até sexta para garantir o logo no material do evento.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "10",
+    "remetente": "contato10@teste.com",
+    "assunto": "Tentativa de login suspeita",
+    "corpo": "Alguém tentou acessar sua conta de um local incomum. Confirme se foi você.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "53",
+    "remetente": "contato53@teste.com",
+    "assunto": "Reembolso de hospedagem vs Adiantamento",
+    "corpo": "O hotel do evento em Miami cobrou no meu cartão pessoal, mas eu já havia solicitado adiantamento corporativo. Como conciliar isso no fechamento do mês?",
+    "categoria_esperada": "Finanças Pessoais",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "22",
+    "remetente": "contato22@teste.com",
+    "assunto": "Cashback em dobro este final de semana",
+    "corpo": "Compre com o cartão da sua conta e ganhe o dobro de pontos até domingo.",
+    "categoria_esperada": "Promoções e Propaganda",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "67",
+    "remetente": "contato67@teste.com",
+    "assunto": "Negociação de dívida com desconto prometido",
+    "corpo": "Um atendente me ofereceu 40% de desconto para quitar a dívida à vista, mas o valor no boleto veio sem o desconto.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "59",
+    "remetente": "contato59@teste.com",
+    "assunto": "Downgrade automático sem aviso",
+    "corpo": "Meu plano empresarial foi rebaixado para o básico sem eu solicitar, e perdi acesso a integrações que a equipe usa todos os dias.",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "11",
+    "remetente": "contato11@teste.com",
+    "assunto": "Código de verificação solicitado",
+    "corpo": "Um código de segurança foi solicitado para sua conta às 03h da manhã.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "49",
+    "remetente": "contato49@teste.com",
+    "assunto": "Divergência contratual na API de pagamentos",
+    "corpo": "O contrato NDA que vocês enviaram cita retenção de dados por 5 anos, mas a documentação da API de vocês diz 2 anos. Precisamos alinhar isso antes do deploy.",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "1",
+    "remetente": "contato1@teste.com",
+    "assunto": "Segunda via de fatura",
+    "corpo": "Por favor, me enviem o boleto atualizado deste mês. O antigo venceu.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "52",
+    "remetente": "contato52@teste.com",
+    "assunto": "Pendência de assinatura em contrato internacional",
+    "corpo": "O jurídico da matriz nos EUA pede aditivo bilíngue, mas nosso modelo padrão só existe em português. Como seguimos com o protocolo?",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "75",
+    "remetente": "contato75@teste.com",
+    "assunto": "Agenda da conferência internacional",
+    "corpo": "Segue a grade completa de palestras e workshops para os três dias do evento em São Paulo.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "38",
+    "remetente": "contato38@teste.com",
+    "assunto": "Reserva de hotel confirmada",
+    "corpo": "Sua estadia em Curitiba de 10 a 12 de outubro está garantida.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "76",
+    "remetente": "contato76@teste.com",
+    "assunto": "Convite para comitê de inovação",
+    "corpo": "Você foi convidado a integrar o comitê que vai decidir os investimentos em inovação do próximo ano.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "80",
+    "remetente": "contato80@teste.com",
+    "assunto": "Upgrade de classe não aplicado na reserva",
+    "corpo": "Paguei pelo upgrade para classe executiva, mas o bilhete emitido ainda mostra classe econômica.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "27",
+    "remetente": "contato27@teste.com",
+    "assunto": "Renovação automática ativada",
+    "corpo": "Percebi que minha assinatura renovou sozinha, isso está certo?",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "35",
+    "remetente": "contato35@teste.com",
+    "assunto": "Confirmação de inscrição no workshop",
+    "corpo": "Sua vaga na oficina de capacitação foi confirmada para o dia 20.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "45",
+    "remetente": "contato45@teste.com",
+    "assunto": "Fui roubado - Cancelem os cartões",
+    "corpo": "Levaram meu celular desbloqueado. O 0800 de suporte não atende, preciso que bloqueiem qualquer tentativa de empréstimo ou pix imediatamente!",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "42",
+    "remetente": "contato42@teste.com",
+    "assunto": "Erro de token e bloqueio judicial",
+    "corpo": "Estou tentando sacar meus dividendos, mas o SMS do token não chega e o app diz que minha conta tem restrição judicial. O que está acontecendo?",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "46",
+    "remetente": "contato46@teste.com",
+    "assunto": "Suspeita de clonagem de cartão",
+    "corpo": "Notei três compras que não reconheço no exterior, mas o cartão físico nunca saiu da minha carteira.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "13",
+    "remetente": "contato13@teste.com",
+    "assunto": "Entrevista técnica - Desenvolvedor Python",
+    "corpo": "Confirmo minha presença na entrevista de amanhã às 14h.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "78",
+    "remetente": "contato78@teste.com",
+    "assunto": "Reembolso de viagem corporativa negado",
+    "corpo": "Solicitei reembolso de uma viagem cancelada por motivos de saúde, mas o financeiro negou alegando prazo expirado.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "69",
+    "remetente": "contato69@teste.com",
+    "assunto": "Análise semanal: juros e câmbio",
+    "corpo": "Nosso time de economistas comenta os principais movimentos do dólar e da taxa de juros nesta semana.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "65",
+    "remetente": "contato65@teste.com",
+    "assunto": "Comprei, devolvi, mas a cobrança continua",
+    "corpo": "Fiz uma compra na loja parceira usando o cartão de vocês. Já devolvi o produto e tenho o comprovante dos correios, mas a segunda parcela veio cobrando.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "30",
+    "remetente": "contato30@teste.com",
+    "assunto": "Resumo econômico da semana",
+    "corpo": "Veja como o dólar e a taxa Selic se comportaram nos últimos dias.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "28",
+    "remetente": "contato28@teste.com",
+    "assunto": "Dúvida sobre benefícios do plano",
+    "corpo": "O plano atual inclui suporte prioritário ou preciso contratar à parte?",
+    "categoria_esperada": "Assinaturas e Serviços",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "72",
+    "remetente": "contato72@teste.com",
+    "assunto": "Radar de mercado: criptomoedas e renda fixa",
+    "corpo": "Panorama comparativo entre a volatilidade de cripto e a segurança da renda fixa neste trimestre.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "79",
+    "remetente": "contato79@teste.com",
+    "assunto": "Conflito de datas entre duas viagens a trabalho",
+    "corpo": "Fui escalado para dois eventos em cidades diferentes na mesma semana e preciso decidir qual reserva manter.",
+    "categoria_esperada": "Viagens e Reservas",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "5",
+    "remetente": "contato5@teste.com",
+    "assunto": "Informe de Rendimentos 2025",
+    "corpo": "Segue o informe para declaração do imposto de renda.",
+    "categoria_esperada": "Documentos e Protocolos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "55",
+    "remetente": "contato55@teste.com",
+    "assunto": "Imposto retido indevidamente no salário",
+    "corpo": "Meu contracheque veio com uma retenção de IR maior do que o esperado, e isso afetou meu planejamento financeiro pessoal do mês.",
+    "categoria_esperada": "Finanças Pessoais",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "12",
+    "remetente": "contato12@teste.com",
+    "assunto": "Dispositivo desconhecido conectado",
+    "corpo": "Detectamos que um computador novo acessou seus dados ontem à noite.",
+    "categoria_esperada": "Alertas de Segurança",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "70",
+    "remetente": "contato70@teste.com",
+    "assunto": "Fintechs em alta: o que mudou no setor",
+    "corpo": "Reportagem especial sobre fusões e aquisições que movimentaram o mercado de pagamentos digitais.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Complexo"
+  },
+  {
+    "id": "14",
+    "remetente": "contato14@teste.com",
+    "assunto": "Reunião de alinhamento do sprint",
+    "corpo": "Podemos remarcar a reunião de planejamento para quinta-feira?",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "18",
+    "remetente": "contato18@teste.com",
+    "assunto": "Sistema não abre no navegador",
+    "corpo": "A tela fica carregando infinitamente quando tento acessar o painel pelo Chrome.",
+    "categoria_esperada": "Suporte Técnico",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "29",
+    "remetente": "contato29@teste.com",
+    "assunto": "Fechamento do Ibovespa",
+    "corpo": "Confira as principais altas e baixas do mercado financeiro nesta semana.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "32",
+    "remetente": "contato32@teste.com",
+    "assunto": "Boletim semanal de investimentos",
+    "corpo": "Confira a análise dos especialistas sobre o cenário macroeconômico atual.",
+    "categoria_esperada": "Newsletters e Notícias",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "36",
+    "remetente": "contato36@teste.com",
+    "assunto": "Save the date: conferência anual",
+    "corpo": "Reserve a data do nosso maior evento do ano na agenda.",
+    "categoria_esperada": "Eventos e Convites",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "4",
+    "remetente": "contato4@teste.com",
+    "assunto": "Valor da parcela errado",
+    "corpo": "A parcela que apareceu no aplicativo está diferente do combinado no contrato.",
+    "categoria_esperada": "Dívidas e Cobranças",
+    "complexidade": "Simples"
+  },
+  {
+    "id": "15",
+    "remetente": "contato15@teste.com",
+    "assunto": "Feedback sobre a proposta técnica",
+    "corpo": "Segue meu retorno sobre o documento de arquitetura que vocês enviaram.",
+    "categoria_esperada": "Trabalho e Projetos",
+    "complexidade": "Simples"
+  }
+]
